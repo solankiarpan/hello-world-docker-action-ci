@@ -8,6 +8,10 @@ on:
         required: true
         default: 'World'
         type: string
+  pull_request:
+  push:
+    branches:
+        - main
 
 jobs:
   say-hello:
